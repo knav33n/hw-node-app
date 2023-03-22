@@ -9,6 +9,6 @@ app.get("/", function (req, res) {
 });
 
 if (!module.parent) {
-  app.listen(3000);
-  console.log("Express started on port 3000");
+  app.listen(80);
+  console.log("Express started on port 80");
 }
